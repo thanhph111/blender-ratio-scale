@@ -28,14 +28,17 @@ class MESH_OT_ratio_scale(bpy.types.Operator):
     dimension_x: bpy.props.FloatProperty(
         name="X",
         description="Dimension X of the active object",
+        unit="LENGTH",
     )
     dimension_y: bpy.props.FloatProperty(
         name="Y",
         description="Dimension Y of the active object",
+        unit="LENGTH",
     )
     dimension_z: bpy.props.FloatProperty(
         name="Z",
         description="Dimension Z of the active object",
+        unit="LENGTH",
     )
 
     @classmethod
